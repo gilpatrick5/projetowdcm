@@ -97,6 +97,10 @@ p {
 .nav-link{
     font-weight: 600;
 }
-.nav-link{
-    color: brown;
+div#navbarNav {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
 }
