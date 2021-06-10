@@ -94,13 +94,75 @@ p {
 
 
 
-.nav-link{
-    font-weight: 600;
-}
+
 div#navbarNav {
-    font-family: 'Poppins';
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+
+
+nav.navbar.navbar-expand-lg.navbar-light.justify-content.between {
+    margin-left: -100px;
+    margin-top: -25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: white;
+    
+    background-color:rgb(92, 0, 92) ;
+
+}
+
+.gestman {
+    padding: 30px;
+}
+
+
+.aplicaçoes{
+    width: 300px;
+}
+
+
+.sistemas{
+    width: 300px;
+}
+
+
+.corpo{
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-family: 'Poppins';
+}
+
+.informação {
+    margin-left: 30px;
+}
+
+.serviços {
+    font-style: italic;
+
+}
+p.app {
+    margin-top: 20px;
+}
+p.sistema {
+    margin-top: 20px;
+}
+section.banner-section {
+    padding-bottom: 10px;
+}
+h1.banner-title {
+    margin: 10px;
+}
+section.banner-section {
+    margin-top: 3px;
 }
